@@ -24,7 +24,7 @@ public class Main {
 
     public static boolean annoBisestile(int anno) {
         if (anno % 100 == 0) {
-            return anno % 400 == 0 && anno % 4 == 0;
+            return anno % 400 == 0;
         } else return anno % 4 == 0;
     }
 }
