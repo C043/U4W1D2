@@ -10,6 +10,8 @@ public class Main {
         System.out.println("Inserisci un numero da 0 a 3");
         int num = parseInt(scanner.nextLine());
         stampaNumero(num);
+
+        scanner.close();
     }
 
     public static void stampaNumero(int num) {
